@@ -1,0 +1,13 @@
+role: "Data Scientist"
+intent: "Erstelle eine Vorhersage für Wohnimmobilienpreise in Berlin"
+constraints:
+  - "Nur öffentlich zugängliche Datenquellen"
+  - "Modell muss erklärbar sein"
+context:
+  - "Zielgruppe sind Immobilieninvestoren"
+step:
+  - "Bereinige und aggregiere verfügbare Preisdaten"
+  - "Trainiere ein Regressionsmodell"
+  - "Visualisiere wichtige Einflussfaktoren"
+output_format: "Diagramme + Modellzusammenfassung"
+verification_instruction: "Überprüfe, ob alle Modelle erklärbar und transparent sind"

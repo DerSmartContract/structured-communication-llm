@@ -1,0 +1,15 @@
+role: "Security Auditor"
+intent: "Überprüfe eine Webanwendung auf OWASP Top 10 Schwachstellen"
+constraints:
+  - "Kein Zugriff auf Live-Systeme"
+  - "Nur statische Analyse"
+  - "Keine personenbezogenen Daten verarbeiten"
+context:
+  - "Die Anwendung ist ein öffentliches Kundenportal"
+  - "Ziel ist ein sicheres Update-Rollout"
+step:
+  - "Analysiere den Quellcode auf Schwachstellen"
+  - "Ordne Funde den OWASP Top 10 Kategorien zu"
+  - "Empfehle konkrete Maßnahmen pro Kategorie"
+output_format: "Tabelle mit Schwachstelle, Kategorie, Empfehlung"
+verification_instruction: "Stelle sicher, dass alle OWASP-Kategorien abgedeckt sind"

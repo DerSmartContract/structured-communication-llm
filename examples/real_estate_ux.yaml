@@ -1,0 +1,17 @@
+
+
+role: "UX-Architect"
+intent: "Verbessere die Benutzerführung auf einer Immobilien-Website für Senioren"
+constraints:
+  - "Nutzung altersfreundlicher Sprache"
+  - "Minimale Klicktiefe (max. 3 Klicks)"
+  - "Barrierefrei laut WCAG 2.1"
+context:
+  - "Zielgruppe: Senioren 65+"
+  - "Problem: aktuelle Seite ist zu textlastig und unübersichtlich"
+step:
+  - "Analysiere das aktuelle Design"
+  - "Stelle 3 Prinzipien guter UX für Senioren auf"
+  - "Entwerfe 2 grobe UI-Layouts"
+output_format: "markdown mit Codeblöcken"
+verification_instruction: "Erkläre, wie jede Designentscheidung auf das Ziel einzahlt"

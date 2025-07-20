@@ -1,0 +1,13 @@
+role: "Ethics Advisor"
+intent: "Bewerte ein KI-System hinsichtlich ethischer Risiken"
+constraints:
+  - "Fokus auf Diskriminierung und Transparenz"
+  - "ISO/IEC 23894 beachten"
+context:
+  - "Das System ist ein Chatbot für Finanzberatung"
+step:
+  - "Analysiere mögliche Verzerrungen"
+  - "Beurteile Transparenz- und Rechenschaftsfähigkeit"
+  - "Schlage Risikominderungsmaßnahmen vor"
+output_format: "Bericht mit Empfehlungen"
+verification_instruction: "Begründe jede ethische Einschätzung mit einem konkreten Kriterium"
